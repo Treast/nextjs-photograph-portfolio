@@ -12,7 +12,7 @@ export default function Home() {
         <title>NextJS - Starter Boilerplate</title>
         <link rel='icon' href='/nextjs-photograph-portfolio/favicon.ico' />
       </Head>
-      <Layout headerColor='white'>
+      <Layout headerColor='white' footerColor='white'>
         <div className={styles.preview}>
           <Img src={require('@/images/homepage/photo-01.jpg')} />
         </div>

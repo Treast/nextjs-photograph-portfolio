@@ -1,9 +1,9 @@
 import styles from '@/styles/_components/Footer.module.scss';
 import Link from 'next/link';
 
-export default function Footer() {
+export default function Footer({ color }) {
   return (
-    <div className={styles.footer}>
+    <div className={styles.footer} style={{ backgroundColor: color, color: color === 'white' ? 'black' : 'white' }}>
       <p className={styles.copyright}>© 2021 - INTERVIEW / All Rights Reserved</p>
       <div className={styles.links}>
         Find us online

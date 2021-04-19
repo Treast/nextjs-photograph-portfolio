@@ -11,7 +11,7 @@ export default function Home() {
         <title>NextJS - Starter Boilerplate</title>
         <link rel='icon' href='/nextjs-photograph-portfolio/favicon.ico' />
       </Head>
-      <Layout>
+      <Layout footerColor='white'>
         <div className={styles.contact}>
           <h1 className='h4'>Contact</h1>
           <form action='#'>

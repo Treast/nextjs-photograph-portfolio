@@ -1,0 +1,28 @@
+.projects {
+  padding: 170px 0;
+  background-color: #000;
+  color: #fff;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      position: relative;
+      display: block;
+      border-top: 1px solid rgba(#fff, 0.8);
+      padding: 28px 200px;
+
+      span {
+        position: absolute;
+        top: 33px;
+        left: 165px;
+      }
+
+      &:last-of-type {
+        border-bottom: 1px solid rgba(#fff, 0.8);
+      }
+    }
+  }
+}
