@@ -4,7 +4,7 @@ import Header from './layouts/Header';
 import Scrollbar from 'smooth-scrollbar';
 import { useEffect, useRef } from 'react';
 
-export default function Layout({ children, color = 'black' }) {
+export default function Layout({ children, headerColor = 'black', footerColor = 'black' }) {
   const refMain = useRef(null);
 
   useEffect(() => {
@@ -18,9 +18,9 @@ export default function Layout({ children, color = 'black' }) {
 
   return (
     <div ref={refMain} data-scrollbar style={{ height: '100vh', width: '100vw' }}>
-      <Header color={color} />
+      <Header color={headerColor} />
       <main>{children}</main>
-      <Footer color={color} />
+      <Footer color={footerColor} />
     </div>
   );
 }
