@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 66px 145px 77px;
+}
+
+.copyright {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(#010101, 0.37);
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(#000, 0.9);
+
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0 0 0 80px;
+    list-style: none;
+
+    li {
+      padding: 0 10px;
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}

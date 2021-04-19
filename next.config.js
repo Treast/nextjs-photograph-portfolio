@@ -6,7 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 const isProd = process.env.NODE_ENV === 'production';
 
-const baseUrl = '/nextjs-starter-boilerplate';
+const baseUrl = '/nextjs-photograph-portfolio';
 
 const deleteAfield = (object, field) => {
   delete object[field];
